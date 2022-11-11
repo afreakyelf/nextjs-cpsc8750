@@ -17,8 +17,11 @@ export default function Home() {
         </h1>
 
         <p className={styles.description}>
-          Get started by editing{' '}
-          <code className={styles.code}>pages/index.js</code>
+          Page owned by <a href="https://github.com/afreakyelf" className={styles.card}>rajatm</a>
+        </p>
+
+         <p className={styles.description}>
+          <a href="chess" className={styles.card}>Play chess</a>
         </p>
 
         <div className={styles.grid}>
